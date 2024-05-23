@@ -19,3 +19,12 @@ function toggleSign() {
         '-' + display.innerText;
     }
 }
+
+function calculateResult() {
+    const display = document.getElementById('display');
+    try {
+      display.innerText = eval(display.innerText.replace('×', '*').replace('÷', '/'));
+    } catch (e) {
+      display.innerText = 'Erro';
+    }
+}
