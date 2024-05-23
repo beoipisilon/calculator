@@ -10,3 +10,12 @@ function appendToDisplay(value) {
       display.innerText += value;
     }
 }
+
+function toggleSign() {
+    const display = document.getElementById('display');
+    if (display.innerText !== '0') {
+      display.innerText = display.innerText.charAt(0) === '-' ?
+        display.innerText.substring(1) :
+        '-' + display.innerText;
+    }
+}
