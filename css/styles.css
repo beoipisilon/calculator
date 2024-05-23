@@ -64,13 +64,9 @@ body {
 }
   
 .calculator .btn:hover {
-    background: #777;
-}
-  
-.calculator .btn-light:hover {
-    background: #c1c1c1;
+    background: rgb(33,37,48);
 }
   
 .calculator .btn-purple:hover {
-    background: #e59500;
+    background: rgb(164,40,189);
 }
